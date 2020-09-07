@@ -1,7 +1,8 @@
 # Data Engineer
-Скрипт с помощью search API hh.ru находит все вакансии `Data Engineer`.
-Для каждой вакансии с помощью AWS comprehend вытаскивает из `description` скилы.
-После чего строит top 100 скилов.
+Скрипт:
+* с помощью [search API hh.ru](https://github.com/hhru/api) находит все вакансии `Data Engineer`;
+* для каждой вакансии с помощью [AWS comprehend](https://aws.amazon.com/ru/comprehend/) вытаскивает из `description` скилы;
+* после чего строит top 100 скилов.
 
 ## Результаты
 ```
